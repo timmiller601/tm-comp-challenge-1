@@ -1,0 +1,196 @@
+body {
+  font-style: normal;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+header {
+  background-color: #72CFF9;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 100px;
+  width: 100%;
+}
+
+
+.right-header { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.left-header {
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  background: #E0E8EC;
+  margin: auto;
+  color: grey;
+  width: 100%;
+}
+
+h1 {  
+  padding-left: 15px;
+  font-size: 35px;
+  width: 100%
+}
+
+.new {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 15px;
+  max-width: 100%;
+  background-color: #E0E8EC;
+}
+
+
+.box {
+  border: transparent;
+  min-width: 310px;
+  width: 23vw;
+  height: 400px;
+  background-color: #72CFF9;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px grey;
+
+}
+
+.inner {
+  color: #ffffff;
+}
+
+.fa-share {
+  font-size: 39px;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #4CE0D2;
+}
+
+.p1 {
+  background: url(Images/Images/codyT.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1;
+}
+
+.p2 {
+  background: url(Images/Images/mparker.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1;
+}
+
+.p3 {
+  background: url(Images/Images/Lindseydyer.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1;
+}
+
+.p4 {
+  background: url(Images/Images/Mark-abma_sized.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1; 
+}
+
+.p5 {
+  background: url(Images/Images/wendyfisher.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1; 
+}
+
+.p6 {
+  background: url(Images/Images/mikedouglas.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1; 
+}
+
+.p7 {
+  background: url(Images/Images/ingridbackstrom.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1; 
+}
+
+.p8 {
+  background: url(Images/Images/erichjoi.jpg);
+  background-size: cover;
+  height: 37%;
+  width: 100%;
+  z-index: -1; 
+}
+
+.link {
+  padding-left: 5px;
+  font-size: 14px;
+  color: #E0E8EC
+}
+ 
+.text {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.name {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+
+.time {
+  font-size: 12px;
+  color: #cccccc ;
+  padding-left: 5px;
+  margin-top: 0;
+}
+
+.title {
+  margin-bottom: 0px;
+}
+
+.playlist {
+  margin-top: 0px;
+  margin-bottom: 38px;
+}
+
+.attachments {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+@media (max-width: 900px){
+  .new{  }
+}
