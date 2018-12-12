@@ -4,6 +4,6 @@
 
 ![alt text](Images/ScreenShotTemplate.png)
 
-![alt text](Images/FinalProject.png)
+![alt text](Images/SC1RD.png)
 
 
