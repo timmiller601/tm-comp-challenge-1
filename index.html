@@ -3,6 +3,7 @@
 <head>
   <title>static comp</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
@@ -10,27 +11,30 @@
   <!-- header Nav Bar-->
   <header>
     <ul class="left-header">
-        <li><i class="fas fa-share-alt"></i>  Shares</li>
-        <li><i class="fas fa-mountain"></i> Playlists</li>
-        <li><i class="fas fa-video"></i> Personal Videos</li>
+        <li><i class="fas fa-share-alt none"></i> Shares</li>
+        <li><i class="fas fa-bars"></i></i></i> Playlists</li>
+        <li><i class="fas fa-video none"></i> Hiking Maps</li>
     </ul>
     <ul class="right-header">
-        <li>Admin Username</li>
-        <li><img src="Images/powder-logo.jpg" alt="Powder Magazine"></li>
+        <li><i class="far fa-user"></i> Admin Username</li>
+        <li class="company"><i class="fas fa-hiking"></i> All Trails</li>
+
     </ul>
   </header>
   <!-- bottom section -->
   <section class="middle">
-    <h1>Best Skiers of the 2000's</h1>
+    <h1>Hiking Trails of Colorado</h1>
   </section>
   <section class="new">
     <article class="box">
-      <div class="inner p1"><i class="fas fa-share"></i></div>
+      <div class="inner p1"><i class="fas fa-share"></i><p class="views">Views 3</p></div>
       <div>
-        <p class="name">Cody Townsend</p>
+        <p class="name">Conundrum Hot Springs</p>
         <p class="time">Last Visited: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.codytownsend.com">www.codytownsend.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.recreation.gov/permits/273336">www.conundrumhotsprings.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
         <p class="playlist">Cody's Last Dance</p>
@@ -39,26 +43,30 @@
       </div>
     </article>
     <article class="box">
-      <div class="inner p2"><i class="fas fa-share"></i></div>
+      <div class="inner p2"><i class="fas fa-share"></i><p class="views">Views 23</p></div>
       <div>
-        <p class="name">Michelle Parker</p>
+        <p class="name">Longs Peak</p>
         <p class="time">Last Visited: Monday 10/14/18 9:43am</p>
       </div>
-      <a class="link" href="www.michelleparker.com">www.michelleparker.com</a>
+      <div class="link-background">
+        <a class="link" href="http://www.rockymountainhikingtrails.com/longs-peak-keyhole.htm">www.longspeak.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
-        <p class="playlist">Steep and Deep!</p>
+        <p class="playlist">The Keyhole</p>
         <p class="title">Attachments:</p>
         <p class="attachments">04</p>
       </div>
     </article>
     <article class="box">
-      <div class="inner p3"></i><i class="fas fa-share"></i></div>
+      <div class="inner p3"></i><i class="fas fa-share"></i><p class="views">Views 5</p></div>
       <div>
-        <p class="name">Lindsey Dyer</p>
+        <p class="name">Four Pass Loop</p>
         <p class="time">Last Visited: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.lindseydyer.com">www.lindseydyer.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.theoutbound.com/colorado/backpacking/backpack-the-four-pass-loop-in-the-maroon-bells">www.fourpassloop.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
         <p class="playlist">I nearly died!</p>
@@ -67,26 +75,30 @@
       </div>
     </article>
     <article class="box">
-      <div class="inner p4"><i class="fas fa-share"></i></div>
+      <div class="inner p4"><i class="fas fa-share"></i><p class="views">Views 9</p></div>
       <div>
-        <p class="name">Mark Abma</p>
+        <p class="name">La Plata Peak</p>
         <p class="time">Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.markabma.com">www.markabma.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.theoutbound.com/colorado/hiking/summit-la-plata-peak">www.LaPalataPeak.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
-        <p class="playlist">abma not abba!</p>
+        <p class="playlist">Where in where?</p>
         <p class="title">Attachments:</p>
         <p class="attachments">03</p>
       </div>
     </article>
     <article class="box">
-      <div class="inner p5"><i class="fas fa-share"></i></div>
+      <div class="inner p5"><i class="fas fa-share"></i><p class="views">Views 34</p></div>
       <div>
-        <p class="name">Wendy Fisher</p>
+        <p class="name">Mount Elbert</p>
         <p class="time">Last Visited: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.wendyfisher.com">www.wendyfisher.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.theoutbound.com/colorado/hiking/hike-mount-elbert">www.mtElbert.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
         <p class="playlist">Try to keep up!</p>
@@ -95,44 +107,50 @@
       </div>
     </article>
     <article class="box">
-      <div class="inner p6"><i class="fas fa-share"></i></div>
+      <div class="inner p6"><i class="fas fa-share"></i><p class="views">Views 45</p></div>
       <div>
-        <p class="name">Mike Douglas</p>
+        <p class="name">The Mummy Kill Hike</p>
         <p class="time">Last Visit: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.switchbackentertainment.com">www.switchbackentertainment.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.theoutbound.com/colorado/hiking/hike-the-mummy-kill-a-k-a-mummy-mania">www.themummykill.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
-        <p class="playlist">I may be old and Im not dead yet!</p>
+        <p class="playlist">I may be old and I'm not dead yet!</p>
         <p class="title">Attachments:</p>
         <p class="attachments">201</p>
       </div>
     </article>
     <article class="box">
-      <div class="inner p7"><i class="fas fa-share"></i></div>
+      <div class="inner p7"><i class="fas fa-share"></i><p class="views">Views 3</p></div>
       <div></div>
       <div>
-        <p class="name">Ingrid Backstrom</p>
+        <p class="name">Crater and Lone Eagle Peak</p>
         <p class="time">Last Visited: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="www.ingridbackstrom.com">www.ingridbackstrom.com</a>
+      <div class="link-background">
+        <a class="link" href="https://www.hikingproject.com/gem/738/crater-lake-and-lone-eagle-peak">www.craterlake.com</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
-        <p class="playlist">Babies wont stop me!</p>
+        <p class="playlist">all the pretties</p>
         <p class="title">Attachments:</p>
         <p class="attachments">45</p>
       </div>
     </article>
     <article class="box">
-      <div class="inner p8"><i class="fas fa-share"></i></div>
+      <div class="inner p8"><i class="fas fa-share"></i><p class="views">Views 3</p></div>
       <div>
-        <p class="name">Eric Hjorleifson</p>
+        <p class="name">The Colorado Trail</p>
         <p class="time">last Vistied: Tuesday 10/16/18 10:34am</p>
       </div>
-      <a class="link" href="https://skimovie.com/portfolio-item/the_hoji_movie/">https://skimovie.com/portfolio-item/the_hoji_movie/</a>
+      <div class="link-background">
+        <a class="link" href="http://www.coloradotrail.org/">http://www.coloradotrail.org/</a>
+      </div>
       <div class="text">
         <p class="title">Playlist:</p>
-        <p class="playlist">Hoji!</p>
+        <p class="playlist">That's a long trail</p>
         <p class="title">Attachments:</p>
         <p class="attachments">600</p>
       </div>

@@ -3,9 +3,10 @@ body {
   font-family: sans-serif;
   margin: auto;
 }
+/*header*/
 
 header {
-  background-color: #72CFF9;
+  background-color: #020303;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
@@ -14,24 +15,43 @@ header {
   width: 100%;
 }
 
+li {
+  padding: 10px;
+}
+
 
 .right-header { 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  color: #404041;
-  padding-right: 10px;
+  justify-content: space-around;
+  color: #FFFFFF;
+  padding-right: 20px;
   font-size: 15px;
 }
 
+.company {
+  font-size: 30px;
+}
+
 .left-header {
-  color: #404041;
+  color: #FFFFFF;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: flex-end;
   font-size: 20px;
+  margin-bottom: 12px;
+  padding-left: 0px;
+}
+
+.fas:hover{
+  color: #FF8900;
+  cursor: pointer;
+}
+
+.far:hover{
+  color: #FF8900;
+  cursor: pointer;
 }
 
 ul {
@@ -39,13 +59,16 @@ ul {
   display: flex;
 }
 
+
+/*main section*/
+
 .middle {
   display: flex;
-  flex-wrap: wrap;
-  background: #E0E8EC;
+  background: #ADA6A4;
   margin: auto;
-  color: #404041;
+  color: #FFFFFF;
   width: 100%;
+  height: 50px;
 }
 
 h1 {  
@@ -57,148 +80,180 @@ h1 {
 .new {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   justify-content: space-between;
   justify-content: space-around;
   padding: 15px;
   max-width: 100%;
-  background-color: #E0E8EC;
+  background-color: #ADA6A4;
 }
 
 
 .box {
   border: transparent;
   min-width: 310px;
-  width: 23vw;
+  width: 23 vw;
   height: 400px;
-  background-color: #72CFF9;
+  background-color: #FFFFFF;
   margin-top: 20px;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px #434B5F;
 
 }
 
 .inner {
-  color: #404041;
+  height: 37%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.views {
+  padding-top: 5px;
+  padding-right: 15px;
+  font-size: 23px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.views:hover {
+  cursor: pointer;
+  color:#FF8900;
+}
+.fa-mountain {
+  padding-top: 10px;
+  font-size: 40px;
+  color: #FFFFFF;
 }
 
 .fa-share {
   font-size: 39px;
   padding-top: 15px;
   padding-left: 15px;
-  color: #4CE0D2;
+  color: #FFFFFF;
+}
+
+.fa-share:hover {
+  color: #FF8900;
 }
 
 .p1 {
-  background: url(Images/Images/codyT.jpg);
+  background: url(Images/conundrum.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1;
 }
 
 .p2 {
-  background: url(Images/Images/mparker.jpg);
+  background: url(Images/longs.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1;
 }
 
 .p3 {
-  background: url(Images/Images/Lindseydyer.jpg);
+  background: url(Images/bells.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1;
 }
 
 .p4 {
-  background: url(Images/Images/Mark-abma_sized.jpg);
+  background: url(Images/laplata.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1; 
 }
 
 .p5 {
-  background: url(Images/Images/wendyfisher.jpg);
+  background: url(Images/mtelbert.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1; 
 }
 
 .p6 {
-  background: url(Images/Images/mikedouglas.jpg);
+  background: url(Images/mummy.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1; 
 }
 
 .p7 {
-  background: url(Images/Images/ingridbackstrom.jpg);
+  background: url(Images/crater.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1; 
 }
 
 .p8 {
-  background: url(Images/Images/erichjoi.jpg);
+  background: url(Images/ctrail.jpg);
   background-size: cover;
-  height: 37%;
-  width: 100%;
-  z-index: -1; 
 }
 
 .link {
-  padding-left: 5px;
   font-size: 14px;
-  color: #404041
+  color: #005588;
+  margin-left: 5px;
+}
+
+.link-background {
+  background-color: lightgrey;
+  width: 94%;
+  height: 40px;
+  margin: auto;
+}
+
+.link:hover {
+  color: #FF8900;
+  cursor: pointer;
 }
  
 .text {
   color: #404041;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .name {
   font-size: 22px;
   color: #404041;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .time {
   font-size: 12px;
   color: #7F3FBF;
-  padding-left: 5px;
-  margin-top: 0;
+  padding-left: 10px;
+  margin-top: 3px;
 }
 
 .title {
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 .playlist {
   margin-top: 0px;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
+  padding-left: 0px;
 }
 
 .attachments {
   margin-top: 0px;
   font-size: 30px;
+  padding-left: 0px;
 }
 
-@media (max-width: 900px){
-  .new{  }
-}
 
-@media (max-width: 450px){
-  header{
-    background-color: pink;
-    display: flex;
-    flex-wrap: wrap-reverse;
+@media screen and (max-width: 450px) {
+  header {
+    height: 40px;
+    margin: auto;
   }
+
+  .right-header {
+    margin: auto;
+  }
+
+  .left-header {
+    display: none;
+  }
+
+  .middle {
+    font-size: 11px;
+  }
+
+  .box {
+    width: 75%;
+  }
+
 }
+
+
